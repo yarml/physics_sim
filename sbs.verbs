@@ -1,0 +1,8 @@
+run() {
+    build/debug/test
+}
+
+all-run() {
+    build
+    run
+}
